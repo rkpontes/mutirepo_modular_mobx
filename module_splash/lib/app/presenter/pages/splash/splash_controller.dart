@@ -7,6 +7,6 @@ class SplashController = _SplashController with _$SplashController;
 
 abstract class _SplashController with Store {
   Future<void> toNext() async {
-    Timer(const Duration(seconds: 5), () => Modular.to.navigate('/login'));
+    Timer(const Duration(seconds: 5), () => Modular.to.navigate('/home'));
   }
 }
